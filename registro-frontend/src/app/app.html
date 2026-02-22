@@ -1,0 +1,18 @@
+<h1>Formulario de Registro</h1>
+<form [formGroup]="form" (ngSubmit)="enviar()">
+
+  <label>Documento</label>
+  <input formControlName="documento">
+<br>
+  <label>Nombre</label>
+  <input formControlName="nombre">
+<br>
+  <label>Apellido</label>
+  <input formControlName="apellido">
+<br>
+  <label>Email</label>
+  <input formControlName="email">
+<br>
+  <button type="submit">Registrar</button>
+
+</form>
